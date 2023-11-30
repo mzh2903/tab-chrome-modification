@@ -28,11 +28,6 @@ To use Tilde as your homepage, simply set your browser's home URL to
 Tilde's index file.
 To go to a site, enter the first letter of the site then hit enter.
 To view the available sites, press `?` or click on the clock.
-If your input doesn't match any of the commands,
-a generic DuckDuckGo search will be triggered. For example:
-
-- Entering `r` would redirect you to [www.reddit.com](https://www.reddit.com).
-- Entering `t` would redirect you to [twitch.tv](https://www.twitch.tv).
 
 Note that by default, queries are searched on DuckDuckGo but this can be
 configured easily by updating two lines on. Check [Configuration](#configuration) for details.
@@ -85,12 +80,6 @@ This allows you to invoke Tilde with your native browser search bar.
 ## Configuration
 
 Open up the [config.js](js/config.js) file and read through the `CONFIG`!
-
-## Setting it up for new tabs on Firefox
-
-By default Firefox won't let you set a custom URL for new tabs but there is a work-around to circumvent the problem.
-
-You can follow [Urimu's Guide](https://github.com/Urimu/Startpage#setting-it-up-on-firefox) to set your new tab to launch custom URLs.
 
 ## License
 
